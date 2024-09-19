@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*End of reset*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(204, 204, 204);
+  font-family: "Gill Sans", "Gill Sans MT" sans-serif;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8em;
+}
+
+p {
+  line-height: 1.3rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 19em;
+  box-shadow: 0 0 15px rgb(185, 185, 185);
+}
+
+section.product-card header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 14em;
+  background-color: rgb(255, 196, 0);
+  gap: 3em;
+}
+
+header img {
+  width: 80%;
+  max-width: 100%;
+}
+
+header aside {
+  align-self: flex-end;
+  margin: 0 4px 4px 0;
+  color: white;
+  opacity: 50%;
+  font-size: 0.7rem;
+}
+
+.product-card .product-info article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  padding: 1.6em;
+}
+
+span {
+  align-self: flex-end;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1em;
+}
